@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyServicesActivity"
+    android:background="@color/background">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background"
+        android:scaleType="fitCenter"
+        android:tint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/emergencyServicesTextView"
+        android:layout_width="302dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/emergency_services"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+
+    <Button
+        android:id="@+id/btnAmbulance"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/rounded_corner_menu"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ambulance"
+        android:textSize="20sp"
+        app:backgroundTint="@color/main_menu_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emergencyServicesTextView" />
+
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_corner_menu"
+        android:fontFamily="sans-serif-medium"
+        android:text="Police"
+        android:textSize="20sp"
+        app:backgroundTint="@color/main_menu_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAmbulance" />
+
+    <Button
+        android:id="@+id/btnFire"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_corner_menu"
+        android:fontFamily="sans-serif-medium"
+        android:text="Fire Rescue"
+        android:textSize="20sp"
+        app:backgroundTint="@color/main_menu_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPolice" />
+
+    <Button
+        android:id="@+id/btnNeighbourWatch"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_corner_menu"
+        android:fontFamily="sans-serif-medium"
+        android:text="Neighbourhood Watch"
+        android:textSize="20sp"
+        app:backgroundTint="@color/main_menu_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFire" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

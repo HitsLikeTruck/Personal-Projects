@@ -1,0 +1,58 @@
+<resources>
+
+    //Main Menu
+    <string name="app_name">safe</string>
+    <string name="main_sos">SOS</string>
+    <string name="main_fake_call">FAKE CALL</string>
+    <string name="main_live_location">LIVE LOCATION</string>
+    <string name="main_emerg_services">EMERGENCY SERVICES</string>
+
+    //Settings
+    <string name="account">ACCOUNT</string>
+    <string name="sos_setup">SOS SETUP</string>
+    <string name="live_location">LIVE LOCATION</string>
+    <string name="emergency_services">EMERGENCY SERVICES</string>
+    <string name="log_out">LOG OUT</string>
+
+    //Settings - Account
+    <string name="settings_account_account_info">ACCOUNT INFO</string>
+    <string name="settings_account_first_name">FIRST NAME:</string>
+    <string name="settings_account_last_name">LAST NAME:</string>
+    <string name="settings_account_phone_number">PHONE NUMBER:</string>
+    <string name="settings_account_enter_here">Update here</string>
+    <string name="settings_account_save">SAVE</string>
+
+    //Settings - About
+    <string name="about_app">ABOUT APP</string>
+    <string name="about_app_header">About App</string>
+    <string name="about_app_text">The safe app was created to give south africans a way to keep their loved ones in the loop when they are in a dangerous situation.\n\nBy using tracking software, storing important numbers and using minimal data, the safe app provides few, by mighty, options to help its user.</string>
+    <string name="student_details">DYLAN KOEVORT: 218088159, DINELLE KOTZE: 219089302\nJONATHAN KLEYNHANS: 217268153, SHANE KNOLL: 218279124\nLLEWELYN KLAASE: 216267072, TISETSO KOTOANA: 217198384</string>
+
+    //SOS
+    <string name="sos_message">HELP IS ON THE WAY</string>
+
+    //Live Location
+    <string name="share_live_location">SHARE\nLIVE LOCATION</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_message_for_receiver">Enter message for receiver</string>
+    <string name="_2_hours">2 Hours</string>
+    <string name="_1_hour">1 Hour</string>
+    <string name="_30_min">30 Min</string>
+
+    //Fake Call
+    <string name="new_call">Start Fake Call</string>
+    <string name="new_call_message">Your phone will ring and you will receive a fake call narrative.\n\nRespond as if it were a real conversation.\n\ \n\Click again to continue audio!</string>
+    <string name="return_call">Pause Call</string>
+    <string name="return_call_message">If your fake call was interrupted by a real call, use the Call option to continue the conversation.</string>
+    <string name="circle_heading">Add Contacts to your circle</string>
+
+    //Login
+    <string name="welcome">Welcome!</string>
+    <string name="login_fname">FIRST NAME</string>
+    <string name="login_lname">LAST NAME</string>
+    <string name="login_number">PHONE NUMBER</string>
+    <string name="login_number_verify">REPEAT PHONE NUMBER</string>
+    <string name="login">LOGIN</string>
+    <string name="confirm_logout">Confirm Logout</string>
+
+</resources>

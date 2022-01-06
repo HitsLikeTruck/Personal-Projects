@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="za.ac.cput.project3safeapp">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/safe_icon_v1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/safe_icon_v1_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project3App">
+        <activity
+            android:name=".LogoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CircleSetUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FakeCallActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EmergencyServicesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConfirmSosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsEmergencyServicesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsAccountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LiveLocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsAboutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
