@@ -1,0 +1,239 @@
+#html{  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+}
+
+  /* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+
+/*---------- Navigation bar ----------*/
+#Nav_Bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img{
+	height: 50px;
+	padding-left: 30px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	float: right;
+	text-align: left;	
+}
+
+/*---------- Navigation bar hover colour ----------*/
+#Nav_Bar ul li a:hover{
+	color: #007bff!important;
+}
+
+.navbar{
+	background: #fff;
+}
+
+.navbar-toggler{
+	border: none!important;
+}
+
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*---------- Silder Images ----------*/
+.carousel-inner{
+	height: 560px;
+	margin-bottom: 49px;
+	color: white;
+}
+
+/*---------- About ----------*/
+#about{
+	padding-top: 50px;
+	padding-bottom: 110px;
+	color: #555;
+}
+
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content{
+	padding-top: 20px;
+}
+
+/*---------- Progress Bars ----------*/
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600; 
+}
+
+.progress-bar{
+	border-radius: 16px;
+}
+
+.progress{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+
+/*---------- Services ----------*/
+#services{
+	background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url(services_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+
+#services h1{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 20px;
+}
+
+#services h1::after{
+	content: '';
+	background-color: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+.services{
+	margin-top: 15px;
+}
+
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px; 
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+#services p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+
+.services .col-md-3:hover{
+	background-color: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+/*---------- Gallery ----------*/
+#gallery{
+	background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url(services_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 25px;
+	padding-bottom: 120px;
+}
+
+#gallery h1{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 30px;
+}
+
+#gallery h1::after{
+	content: '';
+	background-color: #efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+/*---------- Promo ----------*/
+#promo{
+	padding-top: 100px;
+	font-size: 25px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#promo .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.promo-content{
+	padding-top: 20px;
+}
+
+/*---------- Contact Me ----------*/
+#contact{
+	background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url(Contact.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #696969;
+}
+
+.contact-form{
+	padding: 15px;
+}
+
+.form-control{
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+::placeholder{
+	color: #999 !important;
+}
+
+.follow{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+	font-weight: #000000;
+}
+
+.contact-info .fa{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+/*---------- Footer ----------*/
+#footer{
+	background-color: #ffffff;
+	color: #696969;
+	padding: 12px;
+}
+
+
+
+
+
+
+
